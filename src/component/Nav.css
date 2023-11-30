@@ -1,0 +1,64 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+nav {
+  background-color: #e6e3e3;
+  padding: 10px;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.menu li a:hover {
+  background-color: #bababa;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #949494;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

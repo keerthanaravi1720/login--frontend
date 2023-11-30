@@ -1,0 +1,162 @@
+ 
+
+/* 
+.App {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+
+.card {
+  background-color: #7e6d6d;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add specific styles for each card if needed */
+/* .card1 {
+  background-color: #4e4880;
+}
+
+.card2 {
+  background-color: #457b59;
+}
+
+.card3 {
+  background-color: #d3a537;
+}
+
+.card4 {
+  background-color: #c5507a;
+}
+
+.card5 {
+  background-color: #4a9392;
+}
+
+.card6 {
+  background-color: #b94343;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 60px;
+    height: 60px;
+  }
+} */ 
+
+.App {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+}
+
+.card {
+  background-color: #7e6d6d;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+ 
+}
+
+.card1 {
+  background-color: #4e4880;
+}
+
+.card2 {
+  background-color: #457b59;
+}
+
+.card3 {
+  background-color: #d3a537;
+}
+
+.card4 {
+  background-color: #c5507a;
+}
+
+.card5 {
+  background-color: #4a9392;
+}
+
+.card6 {
+  background-color: #b94343;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-container {
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+
+.view-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.view-icon {
+  font-size: 20px;
+  color: #010101;
+}
+
+.view-icon:hover{
+  color: #ae78f6;
+}
+
+.pp1:hover{
+color: black;
+}
+
+.pp{
+  color:#010101;
+}
